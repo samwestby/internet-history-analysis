@@ -6,7 +6,7 @@ Download this project and unzip it in your desired location.
 
 Navigate to that location in a terminal.
 
-Then create a virtual environment
+Then create a virtual environment (OPTIONAL)
 
     python3 -m virtualenv env
 
@@ -15,13 +15,16 @@ Activate it and install the required modules
 Linux/Mac
 
     source env/bin/activate
-    sudo apt-get install portaudio19-dev libffi-dev libssl-dev
     sudo python3 -m pip install -r requirements.txt
     
 Windows
 
     source env/bin/activate
     python3 -m pip install -r requirements.txt
+    
+#### Alternative assuming you have Python 3 installed:
+
+    pip install jupyter matplotlib scipy
     
  ## Get your Chrome Browsing History
  Navigate to [takeout.google.com](https://takeout.google.com/)
@@ -48,5 +51,7 @@ Windows
     jupyter notebook
     
  Follow the prompts to open the notebook.ipynb file.
+ 
+ Navigate to "notebook.ipynb"
  
  Run each cell in the notebook 
