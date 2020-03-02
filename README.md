@@ -3,7 +3,9 @@ This project is a quick analysis of my BrowserHistory.json file from Google Chro
 
 ## Getting Going
 Download this project and unzip it in your desired location.
+
 Navigate to that location in a terminal.
+
 Then create a virtual environment
 
     python3 -m virtualenv env
@@ -23,13 +25,21 @@ Windows
     
  ## Get your Chrome Browsing History
  Navigate to [takeout.google.com](https://takeout.google.com/)
+ 
  Deselect all options except "Chrome"
+ 
  Click on "All Chrome data included" and only select "Browsing History"
+ 
  Click "Next"
+ 
  Click "Export"
+ 
  Wait for an email saying your file is ready
+ 
  Open the email and click "Download"
+ 
  Unzip that folder
+ 
  Navigate to \takeout-XXXXXXX\Takeout\Chrome\BrowserHistory.json and copy that file into the directory for this project
  
  ## Execute
