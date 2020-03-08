@@ -1,6 +1,8 @@
 # internet-history-analysis
 This project is a quick analysis of my BrowserHistory.json file from Google Chrome.
 
+[This video](https://www.youtube.com/watch?v=76tv-Rh3H48) is me talking about what I learned.
+
 ## Getting Going
 Download this project and unzip it in your desired location.
 
